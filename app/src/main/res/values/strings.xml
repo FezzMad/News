@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">News</string>
+    <string name="no_internet_connection">No internet connection</string>
+    <string name="date">Date</string>
+    <string name="time">Time</string>
+    <string name="author">Author</string>
+    <string name="content">Content</string>
+    <string name="readMoreUrl">ReadMoreUrlt</string>
+    <string name="title">Title</string>
+</resources>

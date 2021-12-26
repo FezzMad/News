@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation_graph"
+    app:startDestination="@id/news_list">
+    <fragment
+        android:id="@+id/news_list"
+        android:name="com.example.news.news_list.view.NewsList"
+        android:label="fragment_news_list"
+        tools:layout="@layout/fragment_news_list" >
+        <action
+            android:id="@+id/action_news_list2_to_news_card"
+            app:destination="@id/news_card"
+            app:popUpTo="@id/news_list" />
+        <action
+            android:id="@+id/action_news_list_to_imageFragment"
+            app:destination="@id/imageFragment"
+            app:popUpTo="@id/news_card" />
+    </fragment>
+    <fragment
+        android:id="@+id/news_card"
+        android:name="com.example.news.news_card.view.NewsCard"
+        android:label="News_card"
+        tools:layout="@layout/fragment_news_card">
+        <action
+            android:id="@+id/action_news_card_to_imageFragment"
+            app:destination="@id/imageFragment"
+            app:popUpTo="@id/news_card" />
+    </fragment>
+    <fragment
+        android:id="@+id/imageFragment"
+        android:name="com.example.news.news_images.view.ImageFragment"
+        android:label="ImageFragment"
+        tools:layout="@layout/fragment_image_fragment"/>
+</navigation>
