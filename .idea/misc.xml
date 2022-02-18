@@ -4,11 +4,16 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/mda20/AndroidStudioProjects/News/app/src/main/res/layout/activity_main.xml" value="0.13858695652173914" />
+        <entry key="..\:/Users/mda20/AndroidStudioProjects/News/app/src/main/res/layout/fragment_blank.xml" value="0.16802536231884058" />
         <entry key="..\:/Users/mda20/AndroidStudioProjects/News/app/src/main/res/layout/fragment_image_fragment.xml" value="0.2" />
+        <entry key="..\:/Users/mda20/AndroidStudioProjects/News/app/src/main/res/layout/fragment_news.xml" value="0.4" />
         <entry key="..\:/Users/mda20/AndroidStudioProjects/News/app/src/main/res/layout/fragment_news_card.xml" value="0.264" />
+        <entry key="..\:/Users/mda20/AndroidStudioProjects/News/app/src/main/res/layout/fragment_news_detail.xml" value="0.4" />
         <entry key="..\:/Users/mda20/AndroidStudioProjects/News/app/src/main/res/layout/fragment_news_list.xml" value="0.264" />
+        <entry key="..\:/Users/mda20/AndroidStudioProjects/News/app/src/main/res/layout/fragment_start.xml" value="0.16802536231884058" />
         <entry key="..\:/Users/mda20/AndroidStudioProjects/News/app/src/main/res/layout/images_item.xml" value="0.136" />
-        <entry key="..\:/Users/mda20/AndroidStudioProjects/News/app/src/main/res/layout/news_item.xml" value="0.264" />
+        <entry key="..\:/Users/mda20/AndroidStudioProjects/News/app/src/main/res/layout/item_news.xml" value="0.4" />
+        <entry key="..\:/Users/mda20/AndroidStudioProjects/News/app/src/main/res/layout/news_item.xml" value="0.4" />
       </map>
     </option>
   </component>
